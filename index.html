@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+  </head>
+  <body>
+    <div id="registro">
+      <div class="formulario">
+        <h1>Registrate</h1>
+        <div class="contenedor">
+          <div class="input-contenedor">
+            <i class="fas fa-user icon"></i>
+            <input type="text" placeholder="Nombre Completo" id="nombre_r" />
+          </div>
+
+          <div class="input-contenedor">
+            <i class="fas fa-envelope icon"></i>
+            <input type="text" placeholder="Correo Electronico" id="correo_r" />
+          </div>
+
+          <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="password" placeholder="Contraseña" id="contra_r" />
+          </div>
+          <button  class="button" id="boton_r"> Registro </button>
+          <p>
+            ¿Ya tienes una cuenta? <a class="button2" id="botoninicio">Iniciar Sesion</a
+            >
+          </p>
+          <br>
+          <p id="usuario_r"></p>
+        </div>
+    </div>
+    </div>
+    <div id="ingreso">
+      <div class="formulario">
+        <h1>Inicia Sesión</h1>
+        <div class="contenedor">
+          <div class="input-contenedor">
+            <i class="fas fa-envelope icon"></i>
+            <input type="text" placeholder="Correo Electronico" id="correo_i" />
+          </div>
+
+          <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="password" placeholder="Contraseña" id="contra_i" />
+          </div> 
+          <button class="button" id="boton_i"> Ingresar </button>
+
+          <p>
+              ¿No tienes una cuenta?
+              <a class="button2" id="botonregistro"> Registrate </a>
+            </p>
+            <br>
+            <p id="msjerror"></p>
+        </div>
+         
+    </div>
+    </div>
+  </body>
+</html>
